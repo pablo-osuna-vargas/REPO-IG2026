@@ -1,0 +1,63 @@
+/*estilos originales propios
+
+body {
+	font-family: monospace;
+	background: black;
+	color: whitesmoke;
+}
+
+a {
+	color: coral;
+}
+
+h1 {
+	font-size: 60px;
+	color: black;
+	background-color: darkred;
+}
+*/
+
+
+/* Declaración de uso de IA:
+  Se utilizó IA como apoyo para redactar la estructura y el contenido de esta página */
+
+/* Estilos generales */
+body {
+    font-family: monospace;
+    background-color: black;
+    color: whitesmoke;
+}
+
+/* Encabezado principal */
+h1 {
+    font-size: 48px; /* más legible que 60px */
+    color: whitesmoke; /* texto claro sobre fondo oscuro */
+    background-color: darkred;
+}
+
+/* Subtítulos */
+h2 {
+    font-size: 32px;
+    color: coral;
+}
+
+/* Párrafos */
+p {
+    font-size: 18px;
+}
+
+/* Listas */
+ul {
+    color: whitesmoke;
+}
+
+/* Enlaces */
+a {
+    color: coral;
+    text-decoration: none;
+}
+
+/* Imágenes */
+img {
+    width: auto;
+}

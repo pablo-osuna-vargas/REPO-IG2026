@@ -1,0 +1,15 @@
+body {
+	font-family: monospace;
+	background: black;
+	color: whitesmoke;
+}
+
+a {
+	color: coral;
+}
+
+h1 {
+	font-size: 60px;
+	color: black;
+	background-color: darkred;
+}
