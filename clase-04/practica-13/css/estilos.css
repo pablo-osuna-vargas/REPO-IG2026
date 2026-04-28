@@ -7,17 +7,36 @@
 
 
 /* estilos específicos de los elementos html principales */
+#contenedor {
+	width: 100%;
+	max-width: 960px;
+}
+
 body {
+	margin: 1rem;
+	padding: 1rem;
+	background-color: rgba(100, 100, 50, 0.3);
 	font-family: "Federo", sans-serif;
  	font-weight: 400;
  	font-style: normal;
 }
 
 header, footer {
+	margin: 1rem;
+	padding: 1rem;
 	background-color: rgba(150, 150, 50, 0.5);
+	text-align: center;
+}
+
+nav {
+	margin: 0.5rem;
+	padding: 0.5rem;
+	background-color: rgba(0, 150, 50, 0.3);
 }
 
 nav li {
+	margin: 0.5rem;
+	padding: 0.5rem;
 	list-style: none;
 	display: inline-block;
 }
@@ -26,11 +45,38 @@ a, footer {
 	font-family: Arial;
 }
 
-main {
-	background-color: rgba(150, 50, 150, 0.6);
+#adress {
+	margin: 0.5rem;
+	padding: 0.5rem;
+	background-color: rgba(0, 150, 50, 0.3);
 }
 
-#contenedor {
-	width: 100%;
-	max-width: 960px;
+a:link {
+	padding: 0.2rem;
+	color: rgba(200, 200, 200, 1.0);
+	background-color: rgba(100, 0, 200, 0.5);
+}
+
+a:visited {
+	padding: 0.2rem;
+	color: rgba(50, 50, 50, 1.0);
+	background-color: rgba(100, 0, 200, 0.5);
+}
+
+a:hover {
+	padding: 0.2rem;
+	color: rgba(200, 200, 200, 1.0);
+	background-color: rgba(200, 0, 100, 0.5);
+}
+
+a:active {
+	padding: 0.2rem;	
+	color: rgba(200, 200, 200, 1.0);
+	background-color: rgba(200, 100, 0, 0.5);
+}
+
+main, article {
+	margin: 1rem;
+	padding: 1rem;
+	background-color: rgba(150, 50, 150, 0.6);
 }
