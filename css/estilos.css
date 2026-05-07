@@ -1,0 +1,97 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tipografía global */
+body {
+  font-family: "Lato", "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #2c2c2c;
+  background-color: #fafafa;
+  line-height: 1.6;
+}
+
+/* Contenedor principal */
+#contenedor {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Main */
+main {
+  margin: 2rem 0;
+}
+
+/* Header y footer */
+header, footer {
+  background-color: #e0e0e0;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+h1, h2 {
+  color: black;
+  text-align: center;
+  margin: 1rem;
+}
+
+/* Navegación agrupada con inline-block */
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+nav a {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: #3b5998;          /* azul profundo */
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+}
+
+/* Pseudoclases */
+nav a:link {
+  color: #005f73;
+}
+
+nav a:visited {
+  color: #555555;
+}
+
+nav a:hover {
+  color: #ff6f61;          /* coral suave */
+  background-color: #f0f0f0;
+}
+
+nav a:active {
+  color: #ffffff;
+  background-color: #3b5998;
+}
+
+
+/* Links generales */
+a {
+  color: #3b5998;
+}
+
+a:hover {
+  color: #005f73;
+}
